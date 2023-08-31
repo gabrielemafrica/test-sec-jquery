@@ -1,0 +1,33 @@
+/* Style for the body */
+body {
+    margin: 0;
+  }
+  
+  /* Style for the container */
+  .containerBig {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Style for the header */
+  header {
+    background-color: black;
+    color: white;
+    flex: 0 0 10%;
+  }
+  
+  /* Style for the main */
+  main {
+    flex: 1;
+    overflow: auto;
+  }
+  
+  /* Style for the footer */
+  footer {
+    background-color: black;
+    color: white;
+    flex: 0 0 5%;
+  }
+
